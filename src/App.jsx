@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from "react";
 import Search from "./components/Search/Search";
 import CurrentWeather from "./components/current-weather/current-weather";
@@ -40,3 +41,17 @@ function App() {
 }
 
 export default App;
+=======
+import React from 'react'
+import Weather from './Component/Weather'
+
+const App = () => {
+  return (
+    <div className='app'>
+      <Weather />
+    </div>
+  )
+}
+
+export default App
+>>>>>>> 2c8f8cf (Initial Commit)
